@@ -24,6 +24,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BB769D492F2D71EB009B7C22 /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
 		BB9965A82F2CFC5200CCE291 /* GalleryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GalleryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB9965BE2F2CFC5400CCE291 /* GalleryAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GalleryAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB9965C82F2CFC5400CCE291 /* GalleryAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GalleryAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +89,7 @@
 		BB99659F2F2CFC5200CCE291 = {
 			isa = PBXGroup;
 			children = (
+				BB769D492F2D71EB009B7C22 /* Secrets.xcconfig */,
 				BB9965AA2F2CFC5200CCE291 /* GalleryApp */,
 				BB9965C12F2CFC5400CCE291 /* GalleryAppTests */,
 				BB9965CB2F2CFC5400CCE291 /* GalleryAppUITests */,
@@ -352,6 +354,7 @@
 		};
 		BB9965D42F2CFC5400CCE291 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB769D492F2D71EB009B7C22 /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -416,6 +419,7 @@
 		};
 		BB9965D52F2CFC5400CCE291 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB769D492F2D71EB009B7C22 /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
