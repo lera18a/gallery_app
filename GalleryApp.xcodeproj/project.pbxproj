@@ -6,6 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BB3AD2612F489F0000A33F52 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3AD2602F489F0000A33F52 /* AppConfig.swift */; };
+		BB769D832F2E4DD3009B7C22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB769D7A2F2E4DD3009B7C22 /* Assets.xcassets */; };
+		BB769D852F2E4DD3009B7C22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB769D7D2F2E4DD3009B7C22 /* LaunchScreen.storyboard */; };
+		BB769D862F2E4DD3009B7C22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB769D7F2F2E4DD3009B7C22 /* Main.storyboard */; };
+		BB769D872F2E4DD3009B7C22 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB769D742F2E4DD3009B7C22 /* Photo.swift */; };
+		BB769D882F2E4DD3009B7C22 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB769D802F2E4DD3009B7C22 /* SceneDelegate.swift */; };
+		BB769D8D2F2E4DD3009B7C22 /* ErrorMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB769D732F2E4DD3009B7C22 /* ErrorMessages.swift */; };
+		BB769DC72F2E7593009B7C22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB769DC62F2E7593009B7C22 /* AppDelegate.swift */; };
+		BB769E102F2FAF4F009B7C22 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = BB769E0F2F2FAF4F009B7C22 /* Kingfisher */; };
+		BB769E152F2FC9BD009B7C22 /* FavoriteProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB769E142F2FC9BD009B7C22 /* FavoriteProtocol.swift */; };
+		BB769E172F2FCA90009B7C22 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB769E162F2FCA90009B7C22 /* Favorites.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		BB9965BF2F2CFC5400CCE291 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,39 +38,50 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BB3AD2602F489F0000A33F52 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
 		BB769D492F2D71EB009B7C22 /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
+		BB769D732F2E4DD3009B7C22 /* ErrorMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessages.swift; sourceTree = "<group>"; };
+		BB769D742F2E4DD3009B7C22 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		BB769D7A2F2E4DD3009B7C22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB769D7B2F2E4DD3009B7C22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB769D7C2F2E4DD3009B7C22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB769D7E2F2E4DD3009B7C22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB769D802F2E4DD3009B7C22 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BB769DC62F2E7593009B7C22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB769E142F2FC9BD009B7C22 /* FavoriteProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteProtocol.swift; sourceTree = "<group>"; };
+		BB769E162F2FCA90009B7C22 /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
 		BB9965A82F2CFC5200CCE291 /* GalleryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GalleryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB9965BE2F2CFC5400CCE291 /* GalleryAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GalleryAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB9965C82F2CFC5400CCE291 /* GalleryAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GalleryAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		BB9965D02F2CFC5400CCE291 /* Exceptions for "GalleryApp" folder in "GalleryApp" target */ = {
+		BB769DD22F2E8715009B7C22 /* Exceptions for "GalleryAppTests" folder in "GalleryAppTests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = BB9965A72F2CFC5200CCE291 /* GalleryApp */;
+			target = BB9965BD2F2CFC5400CCE291 /* GalleryAppTests */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		BB9965AA2F2CFC5200CCE291 /* GalleryApp */ = {
+		BB769DF62F2F8585009B7C22 /* Networking */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				BB9965D02F2CFC5400CCE291 /* Exceptions for "GalleryApp" folder in "GalleryApp" target */,
-			);
-			path = GalleryApp;
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		BB769E002F2F8B65009B7C22 /* Presentation */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Presentation;
 			sourceTree = "<group>";
 		};
 		BB9965C12F2CFC5400CCE291 /* GalleryAppTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BB769DD22F2E8715009B7C22 /* Exceptions for "GalleryAppTests" folder in "GalleryAppTests" target */,
+			);
 			path = GalleryAppTests;
-			sourceTree = "<group>";
-		};
-		BB9965CB2F2CFC5400CCE291 /* GalleryAppUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GalleryAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -66,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB769E102F2FAF4F009B7C22 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,13 +112,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB769D752F2E4DD3009B7C22 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BB769D732F2E4DD3009B7C22 /* ErrorMessages.swift */,
+				BB769D742F2E4DD3009B7C22 /* Photo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BB769D772F2E4DD3009B7C22 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				BB769E132F2FC9A0009B7C22 /* Favourite */,
+				BB769D752F2E4DD3009B7C22 /* Models */,
+				BB769DF62F2F8585009B7C22 /* Networking */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		BB769D822F2E4DD3009B7C22 /* GalleryApp */ = {
+			isa = PBXGroup;
+			children = (
+				BB769E002F2F8B65009B7C22 /* Presentation */,
+				BB769D772F2E4DD3009B7C22 /* Data */,
+				BB769D7A2F2E4DD3009B7C22 /* Assets.xcassets */,
+				BB769D7B2F2E4DD3009B7C22 /* Info.plist */,
+				BB769D7D2F2E4DD3009B7C22 /* LaunchScreen.storyboard */,
+				BB769D7F2F2E4DD3009B7C22 /* Main.storyboard */,
+				BB769D802F2E4DD3009B7C22 /* SceneDelegate.swift */,
+				BB769DC62F2E7593009B7C22 /* AppDelegate.swift */,
+			);
+			path = GalleryApp;
+			sourceTree = "<group>";
+		};
+		BB769E132F2FC9A0009B7C22 /* Favourite */ = {
+			isa = PBXGroup;
+			children = (
+				BB769E142F2FC9BD009B7C22 /* FavoriteProtocol.swift */,
+				BB769E162F2FCA90009B7C22 /* Favorites.swift */,
+			);
+			path = Favourite;
+			sourceTree = "<group>";
+		};
 		BB99659F2F2CFC5200CCE291 = {
 			isa = PBXGroup;
 			children = (
+				BB3AD2602F489F0000A33F52 /* AppConfig.swift */,
 				BB769D492F2D71EB009B7C22 /* Secrets.xcconfig */,
-				BB9965AA2F2CFC5200CCE291 /* GalleryApp */,
+				BB769D822F2E4DD3009B7C22 /* GalleryApp */,
 				BB9965C12F2CFC5400CCE291 /* GalleryAppTests */,
-				BB9965CB2F2CFC5400CCE291 /* GalleryAppUITests */,
 				BB9965A92F2CFC5200CCE291 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -124,10 +193,12 @@
 				BB4DD9662F2D3167004FBF11 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				BB9965AA2F2CFC5200CCE291 /* GalleryApp */,
+				BB769DF62F2F8585009B7C22 /* Networking */,
+				BB769E002F2F8B65009B7C22 /* Presentation */,
 			);
 			name = GalleryApp;
 			packageProductDependencies = (
+				BB769E0F2F2FAF4F009B7C22 /* Kingfisher */,
 			);
 			productName = GalleryApp;
 			productReference = BB9965A82F2CFC5200CCE291 /* GalleryApp.app */;
@@ -168,9 +239,6 @@
 			);
 			dependencies = (
 				BB9965CA2F2CFC5400CCE291 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				BB9965CB2F2CFC5400CCE291 /* GalleryAppUITests */,
 			);
 			name = GalleryAppUITests;
 			packageProductDependencies = (
@@ -213,6 +281,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				BB4DD9642F2D2F6B004FBF11 /* XCRemoteSwiftPackageReference "SwiftLint" */,
+				BB769E0E2F2FAF4F009B7C22 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = BB9965A92F2CFC5200CCE291 /* Products */;
@@ -231,6 +300,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB769D832F2E4DD3009B7C22 /* Assets.xcassets in Resources */,
+				BB769D852F2E4DD3009B7C22 /* LaunchScreen.storyboard in Resources */,
+				BB769D862F2E4DD3009B7C22 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +327,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB769E152F2FC9BD009B7C22 /* FavoriteProtocol.swift in Sources */,
+				BB769DC72F2E7593009B7C22 /* AppDelegate.swift in Sources */,
+				BB769D872F2E4DD3009B7C22 /* Photo.swift in Sources */,
+				BB3AD2612F489F0000A33F52 /* AppConfig.swift in Sources */,
+				BB769E172F2FCA90009B7C22 /* Favorites.swift in Sources */,
+				BB769D882F2E4DD3009B7C22 /* SceneDelegate.swift in Sources */,
+				BB769D8D2F2E4DD3009B7C22 /* ErrorMessages.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,9 +370,29 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		BB769D7D2F2E4DD3009B7C22 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB769D7C2F2E4DD3009B7C22 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BB769D7F2F2E4DD3009B7C22 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB769D7E2F2E4DD3009B7C22 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		BB9965D22F2CFC5400CCE291 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB769D492F2D71EB009B7C22 /* Secrets.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -305,7 +404,6 @@
 				INFOPLIST_KEY_CFBundleDisplayName = GalleryApp;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -324,6 +422,7 @@
 		};
 		BB9965D32F2CFC5400CCE291 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB769D492F2D71EB009B7C22 /* Secrets.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -335,7 +434,6 @@
 				INFOPLIST_KEY_CFBundleDisplayName = GalleryApp;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -477,12 +575,14 @@
 		};
 		BB9965D72F2CFC5400CCE291 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB769D492F2D71EB009B7C22 /* Secrets.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3497GF57QJ;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GalleryAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.badrakova.learning.GalleryAppTests;
@@ -496,12 +596,14 @@
 		};
 		BB9965D82F2CFC5400CCE291 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB769D492F2D71EB009B7C22 /* Secrets.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3497GF57QJ;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GalleryAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.badrakova.learning.GalleryAppTests;
@@ -597,6 +699,14 @@
 				minimumVersion = 0.63.2;
 			};
 		};
+		BB769E0E2F2FAF4F009B7C22 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.6.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -604,6 +714,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = BB4DD9642F2D2F6B004FBF11 /* XCRemoteSwiftPackageReference "SwiftLint" */;
 			productName = "plugin:SwiftLintBuildToolPlugin";
+		};
+		BB769E0F2F2FAF4F009B7C22 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB769E0E2F2FAF4F009B7C22 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
