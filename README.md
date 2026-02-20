@@ -51,13 +51,13 @@ UNSPLASH_HOST (String) = $(UNSPLASH_HOST)
 
 ## Screenshots
 ### Gallery
-![Gallery](Docs/1.png)
+<img src="Docs/1.png" width="320" alt="Gallery">
 
 ### Detail
-![Detail](Docs/2.png)
+<img src="Docs/2.png" width="320" alt="Detail">
 
 ### Favorites
-![Favorites](Docs/3.png)
+<img src="Docs/3.png" width="320" alt="Favorites">
 
 # GalleryApp (RU)
 
