@@ -102,3 +102,6 @@ iOSInjectionProject/
 
 # Local secrets
 Secrets.xcconfig
+Secrets.xcconfig
+*.xcconfig
+Secrets.plist
